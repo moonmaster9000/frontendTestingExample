@@ -1,0 +1,21 @@
+{
+  "name": "webApp",
+  "version": "0.0.0",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "latest",
+    "babel-preset-react": "latest",
+    "babelify": "latest",
+    "jasmine": "latest",
+    "karma": "^1.7.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.0",
+    "watchify": "latest"
+  },
+  "scripts": {
+    "compile-test": "watchify spec/*Spec.js -o bundled/compiledSpecs.js -t [ babelify --presets [ es2015 react ] ]"
+  }
+}
