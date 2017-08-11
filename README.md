@@ -20,7 +20,7 @@ To manually run them in the browser:
 
 ```
 $ cd webApp
-$ open -a /Applications/Google\ Chrome.app/ test.html`
+$ open -a /Applications/Google\ Chrome.app/ test.html
 ```
 
 To run with karma: 
